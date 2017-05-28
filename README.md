@@ -1,8 +1,12 @@
 #Following are notes for developing this website
-## To run on a new machine
+## Setting up environment on new machine
 The site is using jekyll and bundler to manage all version requirements
 to make sure all dependencies are installed run
+First, make sure jekyll and bunderler are installed, if not do
+> $ gem install bundler
 > $ bundle install
+##To run locally
+> $ jekyll serve
 ## Using sass
 ### To run Sass from the command line, use
 > $ sass _sass/main.scss css/main.css
