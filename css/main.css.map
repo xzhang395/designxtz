@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAE,CACD,KAAK,CCDU,OAAO,CDEnB,SAAS,CCDA,IAAI",
+"sources": ["../sass/components/_sections.scss","../sass/base/_variables.scss"],
+"names": [],
+"file": "main.css"
+}
