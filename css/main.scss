@@ -1,3 +1,7 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
 @charset "utf-8";
 
 
@@ -43,16 +47,16 @@ $on-laptop:        800px;
 // Base
 
 @import "base/variables";
-@import "base/mixins";
-@import "base/reset";
+// @import "base/mixins";
+// @import "base/reset";
 @import "base/base";
 
 // Components
 
-@import "components/typography";
-@import "components/grid";
-@import "components/buttons";
-@import "components/navigation";
+// @import "components/typography";
+// @import "components/grid";
+// @import "components/buttons";
+// @import "components/navigation";
 @import "components/sections";
 @import "components/layout";
 @import "components/syntax-highlighting";
