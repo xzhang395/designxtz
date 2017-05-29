@@ -22,3 +22,5 @@ markdown: kramdown
 # jekyll-multiple-languages-plugin
 languages: ["en", "cn"]
 exclude_from_localizations: ["javascript", "images", "css"]
+
+destination: docs
