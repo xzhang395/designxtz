@@ -7,6 +7,10 @@ First, make sure jekyll and bunderler are installed, if not do
 > $ bundle install
 ##To run locally
 > $ jekyll serve
+###To run locally from base url
+> $ bundle exec jekyll serve --baseurl ''
+##To build the site
+> $ bundle exec jekyll build
 ## Using sass
 ### To run Sass from the command line, use
 > $ sass _sass/main.scss css/main.css
