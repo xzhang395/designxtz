@@ -2,22 +2,115 @@
 layout: default
 ---
 
-<div class="home">
+<div class="landing container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="headline">
+        <h1>{% t landing.quote %}</h1>
+        <h4>{% t landing.name %}<h4>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <p class="intro">{% t landing.intro %}</p>
+    </div>
+  </div>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
+<div class="qna container-fluid">
+  <div class="bg"></div>
+  <div class="row q1">
+    <div class="col-md-3">
+      <div class="question"><div class="qsign">Q1</div><div class="text">{% t qna.q1 %}</div></div>
+    </div>
+    <div class="col-md-9">
+      <p>{% t q1.p %}</p>
+    </div>
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="row q2">
+    <div class="col-md-3">
+      <div class="question"><div class="qsign">Q1</div><div class="text">{% t qna.q2 %}</div></div>
+    </div>
+    <div class="col-md-9">
+      <div class="q2intro">
+        <p>{% t q2.intro %}</p>
+      </div>
+      <div class="works">
+        <a class="row">
+          <div class="col-md-6">
+            <div class="workshot">
+             <img src="..." alt="...">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2>{% t work.1title %}</h2>
+            <p>{% t work.1des %}</p>
+          </div>
+        </a>
+        <a class="row">
+          <div class="col-md-6">
+            <div class="workshot">
+             <img src="..." alt="...">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2>{% t work.2title %}</h2>
+            <p>{% t work.2des %}</p>
+          </div>
+        </a>
+        <a class="row">
+          <div class="col-md-6">
+            <div class="workshot">
+             <img src="..." alt="...">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2>{% t work.3title %}</h2>
+            <p>{% t work.3des %}</p>
+          </div>
+        </a>
+        <a class="row">
+          <div class="col-md-6">
+            <div class="workshot">
+             <img src="..." alt="...">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2>{% t work.4title %}</h2>
+            <p>{% t work.4des %}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="row q3">
+    <div class="col-md-3">
+      <div class="question"><div class="qsign">Q1</div><div class="text">{% t qna.q3 %}</div></div>
+    </div>
+    <div class="col-md-9">
+      <div class="q2intro">
+        <p>{% t q3.intro %}</p>
+      </div>
+      <div class="row works">
+          <div class="col-md-6">
+            <div class="id">{% t q3.id %}</div>
+          </div>
+          <div class="col-md-6">
+            <div class="code">{% t q3.code %}</div>
+            <div class="graphic">{% t q3.graphic %}</div>
+            <div class="wood">{% t q3.wood %}</div>
+          </div>
+        </div>
+    </div>
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <div class="row qx">
+    <div class="col-md-3">
+      <div class="question"><div class="qsign">Q1</div><div class="text">{% t qna.qx %}</div></div>
+    </div>
+    <div class="col-md-9">
+      <p>{% t qx.p %}</p>
+    </div>
+  </div>
 </div>

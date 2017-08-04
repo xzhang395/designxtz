@@ -1,0 +1,43 @@
+langs:
+  en: English
+  cn: Chinese
+
+landing: #landing screen
+  name: Xueting "Nika" Zhang
+  quote: EMPOWER & ENLIGHTEN<br>BY DESIGN
+  intro: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+qna: #question and answers
+  q1: I wanna hear<br><h3>more about you</h3>
+  q2: Can’t wait to see some of<br><h3>your works</h3>
+  q3: What are some<br><h3>other things you do</h3>
+  qx: I got <br><h3>more questions</h3>
+
+q1:
+  p: Sure! here's a story about <a>how I became a designer</a><br>Or check out my <a>resume</a>.
+
+q2:
+  intro: Here are some of my most recent works. <br>Hope you enjoy them!
+
+work:
+  1title: Lorem Ipsum1
+  1des: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  2title: Lorem Ipsum2
+  2des: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  3title: Lorem Ipsum3
+  3des: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  4title: Lorem Ipsum4
+  4des: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+q3:
+  intro: Glad you asked. Majored in industrial design for my undergraduate study, I love art and design in general. <br>So you wanna see me…
+  id: design sth tangible
+  code: do some creative coding
+  graphic: make sth pretty and artsy
+  wood: chop some wood
+
+qx:
+  p: I’m best reached by email so feel free to email me at <a>xuetingzhang@cmu.edu</a><br>BTW here are some links you might be interested in
+
+foot:
+  p: Designed and handcrafted by Xueting Zhang<br><a>Wanna see how I made it?</a>

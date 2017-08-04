@@ -6,7 +6,7 @@ First, make sure jekyll and bunderler are installed, if not do
 > $ gem install bundler
 > $ bundle install
 ##To run locally
-> $ jekyll serve
+> $ bundle exec jekyll serve
 ###To run locally from base url
 > $ bundle exec jekyll serve --baseurl ''
 ##To build the site
